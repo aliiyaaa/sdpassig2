@@ -1,5 +1,4 @@
 # sdpassig2
-Abstract Factory is a generic ToyFactory interface that defines the following methods:
-
-createToy() — create a toy
-Concrete factories (CarToyFactory, DollToyFactory, etc.) implement the interface and create related objects.
+This project demonstrates the Abstract Factory Pattern using a toy factory example.
+Each factory produces a toy (Car or Doll) and its packaging (Box, Gift).
+The idea is that a factory always returns a consistent pair: toy + packaging.
